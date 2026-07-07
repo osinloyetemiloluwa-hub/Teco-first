@@ -6,7 +6,7 @@ databases:
     databaseName: discord_logs
 
 services:
-  - type: worker
+  - type: web
     name: discord-bot
     runtime: python
     region: oregon
